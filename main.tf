@@ -1,3 +1,5 @@
+#created vpc, subnet, internet gateway, routing table and routing table association
+
 resource "aws_vpc" "main" {
   cidr_block = var.vpc_config.cidr_block
   tags = {
